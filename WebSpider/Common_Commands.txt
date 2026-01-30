@@ -1,0 +1,4 @@
+//解释器路径
+D:\git\venv_spider\Scripts\python.exe
+// pip 路径
+D:\git\venv_spider\Scripts\pip.exe
