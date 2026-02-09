@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+</head>
+<body>
+    <!-- 文本标签 -->
+    <h1 title="<h1>">标题</h1>
+    文本内容1
+    <p title="<p>">段落1,正文和描述文本</p>
+    <span title="<span>">局部文本3,补充性文本</span><br>
+    <span>局部文本4(span:行内容器)</span><br>
+    <strong title="<strong>">文本加粗5(bolded)</strong><br>
+    张三<br>李四<br>王五<br>
+    <!-- 图片和超链接标签 -->  
+    <img src="movies.jpg" alt="肖申克的救赎" title="图片链接,本地并没有，懒得找远程的"/><br>
+    <video src="https://www.w3school.com.cn/i/movie.mp4" controls width="500px" >视频文件的直接地址，不是网页地址</video>
+    <a href="https://www.bilibili.com/" title="这个是一个超链接">bilibili</a><br>
+    <!-- 专门用于bilibili的视频引用标签，不能直接使用video标签，必须使用iframe标签，且src属性必须是bilibili视频的网页地址，而不是视频文件的直接地址 -->
+    <iframe 
+    src="https://www.bilibili.com/video/BV1SLN4zREdh?spm_id_from=333.788.videopod.episodes&vd_source=e6d8101c7ec9734d50bd38411aa9b44a&p=22" 
+    scrolling="no" 
+    border="0" 
+    frameborder="no" 
+    framespacing="0" 
+    allowfullscreen="true" 
+    width="1000px"
+    height="600px">
+    </iframe>
+    <!-- 布局标签 -->
+    <div class="movie-items">
+        <h2 title="标题">肖申克的救赎</h2>
+        <p>
+            段落2,正文和描述文本
+            <span><br> "        局部文本1,补充性文本"</span>
+        </p>
+        <div>
+            <h3 title="标题">电影推荐(无序版本)</h3>
+            <ul>
+                <li title="movie1 无序标签">肖申克的救赎</li>
+                <li title="movie2">美丽人生</li>
+                <li title="movie3">爱的魔力转圈圈</li>
+            </ul>
+            <h3 title="标题">电影推荐(有序版本)</h3>
+            <ol>
+                <li title="movie1 有序标签">肖申克的救赎</li>
+                <li title="movie2">美丽人生</li>
+                <li title="movie3">爱的魔力转圈圈</li>
+            </ol>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
