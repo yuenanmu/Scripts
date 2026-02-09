@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #abc{  /* id选择器 */
+            color:red;
+        }
+        .jay{   /* 类选择器 */
+            color:green;
+        }
+        li{  /* 标签选择器 */
+            border:3px solid rgb(177, 16, 105);
+        }
+        div,span{  /* 组合选择器 */
+            font-size: 80px;
+        }
+
+        ul li{  /* 后代选择器（所有后代） */
+            color:blue;
+        }
+        ul > li{  /* 子选择器（直接子元素） */
+            font-weight: bold;
+            font-size: larger;
+        }
+        ol li:first-child{  /* 伪类选择器 */
+            color:brown;
+        }
+        ol li:nth-child(2)+li{  /* 相邻兄弟选择器,仅仅第3个变成了青色 */
+            color:cyan;
+        }
+        ol li:nth-child(4){  /* 伪类选择器 */
+            color:purple;
+        }
+         ol li:last-child{  /* 伪类选择器 */
+            color:orange;
+        }
+        a[title="y"]{  /* 属性选择器 */
+            background-color: yellow;
+        }
+        a[title="r"]{  /* 属性选择器 */
+            background-color: red;
+        }
+        a[title="g"]{  /* 属性选择器 */
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>周润发</li>
+        <li id="abc">黎明</li>
+        <li>周星驰</li>
+        <li>Sylar</li>
+        <li>
+            <ol>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ol>
+        </li>
+    </ul>
+    <ol>
+        <li>手电筒</li>
+        <li>电视机</li>
+        <li>黑板擦</li>
+        <li>橡皮擦</li>
+        <li>作业本</li>
+    </ol>
+    <div class="jay">呵呵哒</div>
+    <span class="jay">呵呵哒</span>
+    <a herf="###" title="y"><br>我是_yellow<br></a>
+    <a herf="###" title="r">我是_red</a>
+    <a herf="###" title="g">我是_green</a>
+</body>
+</html>
