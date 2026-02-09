@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css渲染版本</title>
+    <link rel="stylesheet" href="test.css"> <!-- 渲染方式一：引入编写样式文件 -->
+    <!-- 渲染方式二：使用style标签+css选择器->实现内联样式  -->
+    <style>
+        span{
+            color: pink;
+        }
+    </style>
+</head>
+<body>
+    <!-- 渲染方式三：使用style属性改变样式去添加黑色实线 -->
+    <div style="width:100px;height:100px;border:2px solid black;" title="使用css文件添加红色背景">
+        使用style属性添加黑色实线（鼠标放上面）
+    </div>
+    <span> 使用style标签改变样式成粉色 </span>
+</body>
+</html>
