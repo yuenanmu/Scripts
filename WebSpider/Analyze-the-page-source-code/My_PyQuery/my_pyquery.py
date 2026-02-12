@@ -33,7 +33,9 @@ a=doc(".aaa a")#类选择器，返回一个PyQuery对象:获取class为aaa的li�
 for item in a.items():#items()方法将PyQuery对象转换为生成器，可以遍历每一个a标签
     href=item.attr("href")#获取a标签的href属性值
     name=item.text()
+    html=item.html()#获取a标签内的HTML代码,标签+文本
     logging.debug(name+":"+href)
+    logging.debug("html:"+html)
 
 # 快速总结:
 # 1. pyquery(选择器) 选择器选择的内容很多的时候. 需要一个一个处理的时候
@@ -50,5 +52,5 @@ for item in a.items():#items()方法将PyQuery对象转换为生成器，可以�
 # doc('.ccc').text("美滋滋") # 修改文本内容
 doc(".ccc").attr("cs", "测试") # 添加属性(有则修改，无则添加：belike:字典)
 doc(".ccc").remove_attr("cs") # 删除属性
-logging.debug(doc)
+logging.debug("修改数据之后的html:\n"+str(doc))
 # print(doc)
