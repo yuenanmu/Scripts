@@ -15,7 +15,6 @@ headers = {
     "X-Requested-With": "XMLHttpRequest"
 }
 
-# 2. 新发地价格接口（根据标头推测的核心接口，若失效可F12抓包替换）
 url = "http://www.xinfadi.com.cn/getPriceData.html"
 
 # 3. 构造请求参数（表单格式，可根据需要调整参数）
@@ -47,7 +46,7 @@ def crawl_xinfadi():
         result = response.json()
         print("爬取成功！数据示例：")
         # 打印前3条数据，方便查看
-        for item in result.get("list", [])[:]:
+        for item in result.get("list", [])[:3]:
             print(f"产品：{item.get('prodName')}，价格：{item.get('avgPrice')}元/{item.get('unitInfo')}")
         
         # 保存数据到本地JSON文件
@@ -63,5 +62,5 @@ def crawl_xinfadi():
         print(f"未知错误：{e}")
 
 if __name__ == "__main__":
-    # 安装依赖（若未安装）：pip install requests
+
     crawl_xinfadi()
