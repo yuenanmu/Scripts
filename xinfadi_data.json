@@ -1,0 +1,1602 @@
+[
+  {
+    "name": "大白菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.0",
+    "low_price": "0.7",
+    "high_price": "1.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "娃娃菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.35",
+    "low_price": "1.2",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "小白菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.35",
+    "low_price": "1.2",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "圆白菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.0",
+    "low_price": "0.5",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "紫甘蓝",
+    "Cat": "蔬菜",
+    "avgprice": "1.95",
+    "low_price": "1.9",
+    "high_price": "2.0",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "芹菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.25",
+    "low_price": "1.0",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "大白菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.0",
+    "low_price": "0.7",
+    "high_price": "1.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "西芹",
+    "Cat": "蔬菜",
+    "avgprice": "2.15",
+    "low_price": "2.1",
+    "high_price": "2.2",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "娃娃菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.35",
+    "low_price": "1.2",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "菠菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.35",
+    "low_price": "1.2",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "小白菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.35",
+    "low_price": "1.2",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "莴笋",
+    "Cat": "蔬菜",
+    "avgprice": "1.05",
+    "low_price": "0.8",
+    "high_price": "1.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "圆白菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.0",
+    "low_price": "0.5",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "大白菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.0",
+    "low_price": "0.7",
+    "high_price": "1.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "团生菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.75",
+    "low_price": "1.3",
+    "high_price": "2.2",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "紫甘蓝",
+    "Cat": "蔬菜",
+    "avgprice": "1.95",
+    "low_price": "1.9",
+    "high_price": "2.0",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "娃娃菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.35",
+    "low_price": "1.2",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "罗马生菜",
+    "Cat": "蔬菜",
+    "avgprice": "2.05",
+    "low_price": "1.8",
+    "high_price": "2.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "小白菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.35",
+    "low_price": "1.2",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "芹菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.25",
+    "low_price": "1.0",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "圆白菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.0",
+    "low_price": "0.5",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "散叶生菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.75",
+    "low_price": "1.5",
+    "high_price": "2.0",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "西芹",
+    "Cat": "蔬菜",
+    "avgprice": "2.15",
+    "low_price": "2.1",
+    "high_price": "2.2",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "紫甘蓝",
+    "Cat": "蔬菜",
+    "avgprice": "1.95",
+    "low_price": "1.9",
+    "high_price": "2.0",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "油菜",
+    "Cat": "蔬菜",
+    "avgprice": "0.75",
+    "low_price": "0.7",
+    "high_price": "0.8",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "菠菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.35",
+    "low_price": "1.2",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "芹菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.25",
+    "low_price": "1.0",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "莴笋",
+    "Cat": "蔬菜",
+    "avgprice": "1.05",
+    "low_price": "0.8",
+    "high_price": "1.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "西芹",
+    "Cat": "蔬菜",
+    "avgprice": "2.15",
+    "low_price": "2.1",
+    "high_price": "2.2",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "香菜",
+    "Cat": "蔬菜",
+    "avgprice": "4.0",
+    "low_price": "3.5",
+    "high_price": "4.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "团生菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.75",
+    "low_price": "1.3",
+    "high_price": "2.2",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "大白菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.0",
+    "low_price": "0.7",
+    "high_price": "1.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "菠菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.35",
+    "low_price": "1.2",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "罗马生菜",
+    "Cat": "蔬菜",
+    "avgprice": "2.05",
+    "low_price": "1.8",
+    "high_price": "2.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "茴香",
+    "Cat": "蔬菜",
+    "avgprice": "4.25",
+    "low_price": "4.0",
+    "high_price": "4.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "娃娃菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.35",
+    "low_price": "1.2",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "莴笋",
+    "Cat": "蔬菜",
+    "avgprice": "1.05",
+    "low_price": "0.8",
+    "high_price": "1.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "散叶生菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.75",
+    "low_price": "1.5",
+    "high_price": "2.0",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "韭菜",
+    "Cat": "蔬菜",
+    "avgprice": "2.4",
+    "low_price": "2.0",
+    "high_price": "2.8",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "团生菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.75",
+    "low_price": "1.3",
+    "high_price": "2.2",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "苦菊",
+    "Cat": "蔬菜",
+    "avgprice": "3.15",
+    "low_price": "3.0",
+    "high_price": "3.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "罗马生菜",
+    "Cat": "蔬菜",
+    "avgprice": "2.05",
+    "low_price": "1.8",
+    "high_price": "2.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "油菜",
+    "Cat": "蔬菜",
+    "avgprice": "0.75",
+    "low_price": "0.7",
+    "high_price": "0.8",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "油麦菜",
+    "Cat": "蔬菜",
+    "avgprice": "2.85",
+    "low_price": "2.5",
+    "high_price": "3.2",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "散叶生菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.75",
+    "low_price": "1.5",
+    "high_price": "2.0",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "散菜花",
+    "Cat": "蔬菜",
+    "avgprice": "1.85",
+    "low_price": "1.3",
+    "high_price": "2.4",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "香菜",
+    "Cat": "蔬菜",
+    "avgprice": "4.0",
+    "low_price": "3.5",
+    "high_price": "4.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "小白菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.35",
+    "low_price": "1.2",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "油菜",
+    "Cat": "蔬菜",
+    "avgprice": "0.75",
+    "low_price": "0.7",
+    "high_price": "0.8",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "绿菜花",
+    "Cat": "蔬菜",
+    "avgprice": "1.75",
+    "low_price": "1.5",
+    "high_price": "2.0",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "茴香",
+    "Cat": "蔬菜",
+    "avgprice": "4.25",
+    "low_price": "4.0",
+    "high_price": "4.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "香菜",
+    "Cat": "蔬菜",
+    "avgprice": "4.0",
+    "low_price": "3.5",
+    "high_price": "4.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "韭菜",
+    "Cat": "蔬菜",
+    "avgprice": "2.4",
+    "low_price": "2.0",
+    "high_price": "2.8",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "茴香",
+    "Cat": "蔬菜",
+    "avgprice": "4.25",
+    "low_price": "4.0",
+    "high_price": "4.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "苦菊",
+    "Cat": "蔬菜",
+    "avgprice": "3.15",
+    "low_price": "3.0",
+    "high_price": "3.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "韭菜",
+    "Cat": "蔬菜",
+    "avgprice": "2.4",
+    "low_price": "2.0",
+    "high_price": "2.8",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "油麦菜",
+    "Cat": "蔬菜",
+    "avgprice": "2.85",
+    "low_price": "2.5",
+    "high_price": "3.2",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "苦菊",
+    "Cat": "蔬菜",
+    "avgprice": "3.15",
+    "low_price": "3.0",
+    "high_price": "3.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "散菜花",
+    "Cat": "蔬菜",
+    "avgprice": "1.85",
+    "low_price": "1.3",
+    "high_price": "2.4",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "油麦菜",
+    "Cat": "蔬菜",
+    "avgprice": "2.85",
+    "low_price": "2.5",
+    "high_price": "3.2",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "绿菜花",
+    "Cat": "蔬菜",
+    "avgprice": "1.75",
+    "low_price": "1.5",
+    "high_price": "2.0",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "圆白菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.0",
+    "low_price": "0.5",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "散菜花",
+    "Cat": "蔬菜",
+    "avgprice": "1.85",
+    "low_price": "1.3",
+    "high_price": "2.4",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "紫甘蓝",
+    "Cat": "蔬菜",
+    "avgprice": "1.95",
+    "low_price": "1.9",
+    "high_price": "2.0",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "绿菜花",
+    "Cat": "蔬菜",
+    "avgprice": "1.75",
+    "low_price": "1.5",
+    "high_price": "2.0",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "芹菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.25",
+    "low_price": "1.0",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "西芹",
+    "Cat": "蔬菜",
+    "avgprice": "2.15",
+    "low_price": "2.1",
+    "high_price": "2.2",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "菠菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.35",
+    "low_price": "1.2",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "莴笋",
+    "Cat": "蔬菜",
+    "avgprice": "1.05",
+    "low_price": "0.8",
+    "high_price": "1.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "团生菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.75",
+    "low_price": "1.3",
+    "high_price": "2.2",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "罗马生菜",
+    "Cat": "蔬菜",
+    "avgprice": "2.05",
+    "low_price": "1.8",
+    "high_price": "2.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "散叶生菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.75",
+    "low_price": "1.5",
+    "high_price": "2.0",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "油菜",
+    "Cat": "蔬菜",
+    "avgprice": "0.75",
+    "low_price": "0.7",
+    "high_price": "0.8",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "香菜",
+    "Cat": "蔬菜",
+    "avgprice": "4.0",
+    "low_price": "3.5",
+    "high_price": "4.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "茴香",
+    "Cat": "蔬菜",
+    "avgprice": "4.25",
+    "low_price": "4.0",
+    "high_price": "4.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "韭菜",
+    "Cat": "蔬菜",
+    "avgprice": "2.4",
+    "low_price": "2.0",
+    "high_price": "2.8",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "苦菊",
+    "Cat": "蔬菜",
+    "avgprice": "3.15",
+    "low_price": "3.0",
+    "high_price": "3.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "油麦菜",
+    "Cat": "蔬菜",
+    "avgprice": "2.85",
+    "low_price": "2.5",
+    "high_price": "3.2",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "散菜花",
+    "Cat": "蔬菜",
+    "avgprice": "1.85",
+    "low_price": "1.3",
+    "high_price": "2.4",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "绿菜花",
+    "Cat": "蔬菜",
+    "avgprice": "1.75",
+    "low_price": "1.5",
+    "high_price": "2.0",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "大白菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.0",
+    "low_price": "0.7",
+    "high_price": "1.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "娃娃菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.35",
+    "low_price": "1.2",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "小白菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.35",
+    "low_price": "1.2",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "圆白菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.0",
+    "low_price": "0.5",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "紫甘蓝",
+    "Cat": "蔬菜",
+    "avgprice": "1.95",
+    "low_price": "1.9",
+    "high_price": "2.0",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "芹菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.25",
+    "low_price": "1.0",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "西芹",
+    "Cat": "蔬菜",
+    "avgprice": "2.15",
+    "low_price": "2.1",
+    "high_price": "2.2",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "菠菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.35",
+    "low_price": "1.2",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "莴笋",
+    "Cat": "蔬菜",
+    "avgprice": "1.05",
+    "low_price": "0.8",
+    "high_price": "1.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "团生菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.75",
+    "low_price": "1.3",
+    "high_price": "2.2",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "罗马生菜",
+    "Cat": "蔬菜",
+    "avgprice": "2.05",
+    "low_price": "1.8",
+    "high_price": "2.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "散叶生菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.75",
+    "low_price": "1.5",
+    "high_price": "2.0",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "油菜",
+    "Cat": "蔬菜",
+    "avgprice": "0.75",
+    "low_price": "0.7",
+    "high_price": "0.8",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "香菜",
+    "Cat": "蔬菜",
+    "avgprice": "4.0",
+    "low_price": "3.5",
+    "high_price": "4.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "茴香",
+    "Cat": "蔬菜",
+    "avgprice": "4.25",
+    "low_price": "4.0",
+    "high_price": "4.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "韭菜",
+    "Cat": "蔬菜",
+    "avgprice": "2.4",
+    "low_price": "2.0",
+    "high_price": "2.8",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "苦菊",
+    "Cat": "蔬菜",
+    "avgprice": "3.15",
+    "low_price": "3.0",
+    "high_price": "3.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "油麦菜",
+    "Cat": "蔬菜",
+    "avgprice": "2.85",
+    "low_price": "2.5",
+    "high_price": "3.2",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "散菜花",
+    "Cat": "蔬菜",
+    "avgprice": "1.85",
+    "low_price": "1.3",
+    "high_price": "2.4",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "绿菜花",
+    "Cat": "蔬菜",
+    "avgprice": "1.75",
+    "low_price": "1.5",
+    "high_price": "2.0",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "大白菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.0",
+    "low_price": "0.7",
+    "high_price": "1.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "娃娃菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.35",
+    "low_price": "1.2",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "小白菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.35",
+    "low_price": "1.2",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "圆白菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.0",
+    "low_price": "0.5",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "紫甘蓝",
+    "Cat": "蔬菜",
+    "avgprice": "1.95",
+    "low_price": "1.9",
+    "high_price": "2.0",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "芹菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.25",
+    "low_price": "1.0",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "西芹",
+    "Cat": "蔬菜",
+    "avgprice": "2.15",
+    "low_price": "2.1",
+    "high_price": "2.2",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "菠菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.35",
+    "low_price": "1.2",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "莴笋",
+    "Cat": "蔬菜",
+    "avgprice": "1.05",
+    "low_price": "0.8",
+    "high_price": "1.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "团生菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.75",
+    "low_price": "1.3",
+    "high_price": "2.2",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "罗马生菜",
+    "Cat": "蔬菜",
+    "avgprice": "2.05",
+    "low_price": "1.8",
+    "high_price": "2.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "散叶生菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.75",
+    "low_price": "1.5",
+    "high_price": "2.0",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "油菜",
+    "Cat": "蔬菜",
+    "avgprice": "0.75",
+    "low_price": "0.7",
+    "high_price": "0.8",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "香菜",
+    "Cat": "蔬菜",
+    "avgprice": "4.0",
+    "low_price": "3.5",
+    "high_price": "4.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "茴香",
+    "Cat": "蔬菜",
+    "avgprice": "4.25",
+    "low_price": "4.0",
+    "high_price": "4.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "韭菜",
+    "Cat": "蔬菜",
+    "avgprice": "2.4",
+    "low_price": "2.0",
+    "high_price": "2.8",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "苦菊",
+    "Cat": "蔬菜",
+    "avgprice": "3.15",
+    "low_price": "3.0",
+    "high_price": "3.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "油麦菜",
+    "Cat": "蔬菜",
+    "avgprice": "2.85",
+    "low_price": "2.5",
+    "high_price": "3.2",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "散菜花",
+    "Cat": "蔬菜",
+    "avgprice": "1.85",
+    "low_price": "1.3",
+    "high_price": "2.4",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "绿菜花",
+    "Cat": "蔬菜",
+    "avgprice": "1.75",
+    "low_price": "1.5",
+    "high_price": "2.0",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "大白菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.0",
+    "low_price": "0.7",
+    "high_price": "1.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "娃娃菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.35",
+    "low_price": "1.2",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "小白菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.35",
+    "low_price": "1.2",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "圆白菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.0",
+    "low_price": "0.5",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "紫甘蓝",
+    "Cat": "蔬菜",
+    "avgprice": "1.95",
+    "low_price": "1.9",
+    "high_price": "2.0",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "芹菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.25",
+    "low_price": "1.0",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "西芹",
+    "Cat": "蔬菜",
+    "avgprice": "2.15",
+    "low_price": "2.1",
+    "high_price": "2.2",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "菠菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.35",
+    "low_price": "1.2",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "莴笋",
+    "Cat": "蔬菜",
+    "avgprice": "1.05",
+    "low_price": "0.8",
+    "high_price": "1.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "团生菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.75",
+    "low_price": "1.3",
+    "high_price": "2.2",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "罗马生菜",
+    "Cat": "蔬菜",
+    "avgprice": "2.05",
+    "low_price": "1.8",
+    "high_price": "2.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "散叶生菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.75",
+    "low_price": "1.5",
+    "high_price": "2.0",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "油菜",
+    "Cat": "蔬菜",
+    "avgprice": "0.75",
+    "low_price": "0.7",
+    "high_price": "0.8",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "香菜",
+    "Cat": "蔬菜",
+    "avgprice": "4.0",
+    "low_price": "3.5",
+    "high_price": "4.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "茴香",
+    "Cat": "蔬菜",
+    "avgprice": "4.25",
+    "low_price": "4.0",
+    "high_price": "4.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "韭菜",
+    "Cat": "蔬菜",
+    "avgprice": "2.4",
+    "low_price": "2.0",
+    "high_price": "2.8",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "苦菊",
+    "Cat": "蔬菜",
+    "avgprice": "3.15",
+    "low_price": "3.0",
+    "high_price": "3.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "油麦菜",
+    "Cat": "蔬菜",
+    "avgprice": "2.85",
+    "low_price": "2.5",
+    "high_price": "3.2",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "散菜花",
+    "Cat": "蔬菜",
+    "avgprice": "1.85",
+    "low_price": "1.3",
+    "high_price": "2.4",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "绿菜花",
+    "Cat": "蔬菜",
+    "avgprice": "1.75",
+    "low_price": "1.5",
+    "high_price": "2.0",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "大白菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.0",
+    "low_price": "0.7",
+    "high_price": "1.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "娃娃菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.35",
+    "low_price": "1.2",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "小白菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.35",
+    "low_price": "1.2",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "圆白菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.0",
+    "low_price": "0.5",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "紫甘蓝",
+    "Cat": "蔬菜",
+    "avgprice": "1.95",
+    "low_price": "1.9",
+    "high_price": "2.0",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "芹菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.25",
+    "low_price": "1.0",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "西芹",
+    "Cat": "蔬菜",
+    "avgprice": "2.15",
+    "low_price": "2.1",
+    "high_price": "2.2",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "菠菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.35",
+    "low_price": "1.2",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "莴笋",
+    "Cat": "蔬菜",
+    "avgprice": "1.05",
+    "low_price": "0.8",
+    "high_price": "1.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "团生菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.75",
+    "low_price": "1.3",
+    "high_price": "2.2",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "罗马生菜",
+    "Cat": "蔬菜",
+    "avgprice": "2.05",
+    "low_price": "1.8",
+    "high_price": "2.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "散叶生菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.75",
+    "low_price": "1.5",
+    "high_price": "2.0",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "油菜",
+    "Cat": "蔬菜",
+    "avgprice": "0.75",
+    "low_price": "0.7",
+    "high_price": "0.8",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "香菜",
+    "Cat": "蔬菜",
+    "avgprice": "4.0",
+    "low_price": "3.5",
+    "high_price": "4.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "茴香",
+    "Cat": "蔬菜",
+    "avgprice": "4.25",
+    "low_price": "4.0",
+    "high_price": "4.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "韭菜",
+    "Cat": "蔬菜",
+    "avgprice": "2.4",
+    "low_price": "2.0",
+    "high_price": "2.8",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "苦菊",
+    "Cat": "蔬菜",
+    "avgprice": "3.15",
+    "low_price": "3.0",
+    "high_price": "3.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "油麦菜",
+    "Cat": "蔬菜",
+    "avgprice": "2.85",
+    "low_price": "2.5",
+    "high_price": "3.2",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "散菜花",
+    "Cat": "蔬菜",
+    "avgprice": "1.85",
+    "low_price": "1.3",
+    "high_price": "2.4",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "绿菜花",
+    "Cat": "蔬菜",
+    "avgprice": "1.75",
+    "low_price": "1.5",
+    "high_price": "2.0",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "大白菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.0",
+    "low_price": "0.7",
+    "high_price": "1.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "娃娃菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.35",
+    "low_price": "1.2",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "小白菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.35",
+    "low_price": "1.2",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "圆白菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.0",
+    "low_price": "0.5",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "紫甘蓝",
+    "Cat": "蔬菜",
+    "avgprice": "1.95",
+    "low_price": "1.9",
+    "high_price": "2.0",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "芹菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.25",
+    "low_price": "1.0",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "西芹",
+    "Cat": "蔬菜",
+    "avgprice": "2.15",
+    "low_price": "2.1",
+    "high_price": "2.2",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "菠菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.35",
+    "low_price": "1.2",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "莴笋",
+    "Cat": "蔬菜",
+    "avgprice": "1.05",
+    "low_price": "0.8",
+    "high_price": "1.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "团生菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.75",
+    "low_price": "1.3",
+    "high_price": "2.2",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "罗马生菜",
+    "Cat": "蔬菜",
+    "avgprice": "2.05",
+    "low_price": "1.8",
+    "high_price": "2.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "散叶生菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.75",
+    "low_price": "1.5",
+    "high_price": "2.0",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "油菜",
+    "Cat": "蔬菜",
+    "avgprice": "0.75",
+    "low_price": "0.7",
+    "high_price": "0.8",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "香菜",
+    "Cat": "蔬菜",
+    "avgprice": "4.0",
+    "low_price": "3.5",
+    "high_price": "4.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "茴香",
+    "Cat": "蔬菜",
+    "avgprice": "4.25",
+    "low_price": "4.0",
+    "high_price": "4.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "韭菜",
+    "Cat": "蔬菜",
+    "avgprice": "2.4",
+    "low_price": "2.0",
+    "high_price": "2.8",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "苦菊",
+    "Cat": "蔬菜",
+    "avgprice": "3.15",
+    "low_price": "3.0",
+    "high_price": "3.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "油麦菜",
+    "Cat": "蔬菜",
+    "avgprice": "2.85",
+    "low_price": "2.5",
+    "high_price": "3.2",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "散菜花",
+    "Cat": "蔬菜",
+    "avgprice": "1.85",
+    "low_price": "1.3",
+    "high_price": "2.4",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "绿菜花",
+    "Cat": "蔬菜",
+    "avgprice": "1.75",
+    "low_price": "1.5",
+    "high_price": "2.0",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "大白菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.0",
+    "low_price": "0.7",
+    "high_price": "1.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "娃娃菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.35",
+    "low_price": "1.2",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "小白菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.35",
+    "low_price": "1.2",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "圆白菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.0",
+    "low_price": "0.5",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "紫甘蓝",
+    "Cat": "蔬菜",
+    "avgprice": "1.95",
+    "low_price": "1.9",
+    "high_price": "2.0",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "芹菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.25",
+    "low_price": "1.0",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "西芹",
+    "Cat": "蔬菜",
+    "avgprice": "2.15",
+    "low_price": "2.1",
+    "high_price": "2.2",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "菠菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.35",
+    "low_price": "1.2",
+    "high_price": "1.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "莴笋",
+    "Cat": "蔬菜",
+    "avgprice": "1.05",
+    "low_price": "0.8",
+    "high_price": "1.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "团生菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.75",
+    "low_price": "1.3",
+    "high_price": "2.2",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "罗马生菜",
+    "Cat": "蔬菜",
+    "avgprice": "2.05",
+    "low_price": "1.8",
+    "high_price": "2.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "散叶生菜",
+    "Cat": "蔬菜",
+    "avgprice": "1.75",
+    "low_price": "1.5",
+    "high_price": "2.0",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "油菜",
+    "Cat": "蔬菜",
+    "avgprice": "0.75",
+    "low_price": "0.7",
+    "high_price": "0.8",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "香菜",
+    "Cat": "蔬菜",
+    "avgprice": "4.0",
+    "low_price": "3.5",
+    "high_price": "4.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "茴香",
+    "Cat": "蔬菜",
+    "avgprice": "4.25",
+    "low_price": "4.0",
+    "high_price": "4.5",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "韭菜",
+    "Cat": "蔬菜",
+    "avgprice": "2.4",
+    "low_price": "2.0",
+    "high_price": "2.8",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "苦菊",
+    "Cat": "蔬菜",
+    "avgprice": "3.15",
+    "low_price": "3.0",
+    "high_price": "3.3",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "油麦菜",
+    "Cat": "蔬菜",
+    "avgprice": "2.85",
+    "low_price": "2.5",
+    "high_price": "3.2",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "散菜花",
+    "Cat": "蔬菜",
+    "avgprice": "1.85",
+    "low_price": "1.3",
+    "high_price": "2.4",
+    "date": "2026-03-06 00:00:00"
+  },
+  {
+    "name": "绿菜花",
+    "Cat": "蔬菜",
+    "avgprice": "1.75",
+    "low_price": "1.5",
+    "high_price": "2.0",
+    "date": "2026-03-06 00:00:00"
+  }
+]
