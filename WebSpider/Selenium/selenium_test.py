@@ -11,4 +11,8 @@ url="https://www.baidu.com/"
 
 Web.get(url)
 print(Web.title )
+
+
+input("任意键退出")
 Web.quit()
+print("退出成功")
