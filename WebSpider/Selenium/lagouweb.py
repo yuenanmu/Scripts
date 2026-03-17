@@ -73,7 +73,27 @@ def search_jobs(browser,keyword):
         print("广告已关闭")
     except:
         print("没有广告")
-    
+    #输入搜索关键词并点击搜索
+    #等待
+    time.sleep(2)#直接这个阻塞式等待就好！
+    wait=WebDriverWait(browser,7)
+    search_input=browser.find_element(By.ID,"search_input")
+    search_input.clear()
+    search_input.send_keys(keyword)
+    search_btn=wait.until(EC.element_to_be_clickable((By.ID,"search_button")))
+    search_btn.click()
+    time.sleep(2)
+    search_input.clear()
+    time.sleep(1)
+    search_input.send_keys("python")
+    search_btn.click()
+    time.sleep(1)
+    browser.refresh()
+    browser.back()
+    browser.forward()
+    # browser.quit()
+    browser.close()
+
 def operate_browser(browser,url):
     browser.get(url)
     slider_verify(browser)
