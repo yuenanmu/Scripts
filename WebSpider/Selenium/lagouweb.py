@@ -62,11 +62,22 @@ def slider_verify(browser):#,slider_xpath,track
     ).perform()
     #松开
     action.release().perform()
+
 def search_jobs(browser,keyword):
-    pass
+    #清除广告
+    try:
+        browser.implicitly_wait(5)
+        script="var ad=document.querySelector('div[class*=\"loginBar\"]');" \
+        " ad.parentNode.removeChild(ad);"
+        browser.execute_script(script)
+        print("广告已关闭")
+    except:
+        print("没有广告")
+    
 def operate_browser(browser,url):
     browser.get(url)
     slider_verify(browser)
+    search_jobs(browser,"区块链")
     time.sleep(2)
     # windows = browser.window_handles  # 返回列表，按打开顺序排列
     # # 2. 切换窗口
