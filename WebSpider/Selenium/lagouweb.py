@@ -83,16 +83,34 @@ def search_jobs(browser,keyword):
     search_btn=wait.until(EC.element_to_be_clickable((By.ID,"search_button")))
     search_btn.click()
     time.sleep(2)
-    search_input.clear()
-    time.sleep(1)
-    search_input.send_keys("python")
-    search_btn.click()
-    time.sleep(1)
-    browser.refresh()
-    browser.back()
-    browser.forward()
-    # browser.quit()
-    browser.close()
+    browser.switch_to.window(browser.window_handles[1])
+    jobs_list=wait.until(EC.presence_of_all_elements_located((By.XPATH,'//*[@id="jobList"]')))
+    if not jobs_list:
+        print("没有找到职位列表")
+        return
+    else:
+        for job in jobs_list:
+            # position=job.find_element(By.XPATH,'//*[@id="openWinPostion"]').text
+            try:
+                #首先：不一定找得到！！不用这个会报错，导致整个程序死掉
+                #其次，一定要直接复制，别手写！！！
+                position = wait.until(EC.presence_of_element_located((By.XPATH,'//*[@id="openWinPostion"]'))).text
+                print(f"职位: {position}")
+            except:
+                print("openWinPosition元素不存在，跳过")
+            
+        pass
+
+    # search_input.clear()
+    # time.sleep(1)
+    # search_input.send_keys("python")#？会不会是没有切换窗口，导致clear失效？
+    # search_btn.click()
+    # time.sleep(1)
+    # browser.refresh()
+    # browser.back()
+    # browser.forward()
+    # # browser.quit()
+    # browser.close()
 
 def operate_browser(browser,url):
     browser.get(url)
