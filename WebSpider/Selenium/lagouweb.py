@@ -121,40 +121,50 @@ def search_jobs(browser,keyword):
     #点击搜索后会打开新窗口，切换到新窗口
     if not switch_to_new_window(browser,wait,before_search_handles):
         return
-    jobs_window_handle = browser.current_window_handle
-    jobs_list=wait.until(EC.presence_of_all_elements_located((By.XPATH,'//*[@id="jobList"]')))
+    
+    jobs_window_handle = browser.current_window_handle#/html/body/div[1]/div[1]/div/div[2]/div[3]/div/div[1]/div[1]|||/div[1]/div[1]/span/div/div[1]/a
+    # 先滚动页面加载所有职位（避免动态加载漏项）
+    browser.execute_script("window.scrollTo(0, document.body.scrollHeight)")
+    time.sleep(1)
+    jobs_list=wait.until(EC.presence_of_all_elements_located((By.XPATH,'/html/body/div[1]/div[1]/div/div[2]/div[3]/div/div[1]/div')))
     if not jobs_list:#检查职位列表有效性
         print("没有找到职位列表")
         return
     else:
         print(f"找到{len(jobs_list)}个职位")
+        print(f"职位列表元素: {jobs_list}")
+        index=0
         for job in jobs_list:
-            # position=job.find_element(By.XPATH,'//*[@id="openWinPostion"]').text
+            index+=1
+            print(f"正在处理第{index}个职位")
             try:
                 #首先：不一定找得到！！不用这个会报错，导致整个程序死掉
                 #其次，一定要直接复制，别手写！！！
-                position = wait.until(EC.presence_of_element_located((By.XPATH,'//*[@id="openWinPostion"]')))
+                position = wait.until(EC.presence_of_element_located((By.XPATH,'.//div[1]/div[1]/div[1]/a')))
                 position_text=position.text
                 print(f"职位: {position_text}")
                 before_position_handles = browser.window_handles[:]
                 position.click()#点击职位，打开新窗口
+                time.sleep(random.uniform(1, 2))#模拟点击后的停留时间
                 if not switch_to_new_window(browser,wait,before_position_handles):
                     continue
                 try:
                     position_details=wait.until(EC.visibility_of_element_located((By.XPATH,'//*[@id="job_detail"]/dd[2]/div[1]')))#职位详情元素
+                    time.sleep(random.uniform(2, 4))
                     if not position_details:
                         print("没有找到职位详情")
                     else:
-                        print(f"职位详情: {position_details.text}")
+                        print(f"职位详情: ::::::::::::::::::::")
                 except Exception as e:
                     print(f"职位详情元素不存在，跳过: {e}")
                 finally:
+                    time.sleep(random.uniform(2, 4))#模拟浏览职位的停留时间,sleep参数可以是小数
                     browser.close()
                     browser.switch_to.window(jobs_window_handle)
             except Exception as e:
                 print(f"openWinPosition元素不存在，跳过: {e}")
             
-        pass
+
 
     # search_input.clear()
     # time.sleep(1)
@@ -175,7 +185,8 @@ def operate_browser(browser,url):
 
 
 def close_browser(browser):
-    input("任意键退出")
+    # input("任意键退出")
+    print("完成任务，正在关闭浏览器...")
     browser.quit()
 if __name__ == "__main__":
     driver_path=r"d:\git\scripts\WebSpider\Selenium\chromedriver.exe"
