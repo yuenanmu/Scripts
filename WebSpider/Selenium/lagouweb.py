@@ -82,20 +82,39 @@ def search_jobs(browser,keyword):
     search_input.send_keys(keyword)
     search_btn=wait.until(EC.element_to_be_clickable((By.ID,"search_button")))
     search_btn.click()
-    time.sleep(2)
+    time.sleep(5)
     browser.switch_to.window(browser.window_handles[1])
     jobs_list=wait.until(EC.presence_of_all_elements_located((By.XPATH,'//*[@id="jobList"]')))
     if not jobs_list:
         print("没有找到职位列表")
         return
     else:
+        print(f"找到{len(jobs_list)}个职位")
         for job in jobs_list:
             # position=job.find_element(By.XPATH,'//*[@id="openWinPostion"]').text
             try:
                 #首先：不一定找得到！！不用这个会报错，导致整个程序死掉
                 #其次，一定要直接复制，别手写！！！
-                position = wait.until(EC.presence_of_element_located((By.XPATH,'//*[@id="openWinPostion"]'))).text
-                print(f"职位: {position}")
+                position = wait.until(EC.presence_of_element_located((By.XPATH,'//*[@id="openWinPostion"]')))
+                position_text=position.text
+                print(f"职位: {position_text}")
+                position.click()#点击职位，打开新窗口
+                time.sleep(3)
+                len_ = len(browser.window_handles)
+                print(f"当前窗口数量: {len_}")
+                browser.switch_to.window(browser.window_handles[-1])#切换到新窗口
+                print(f"切换到新窗口，标题: {browser.title}")
+                time.sleep(3)
+                try:
+                    position_details=wait.until(EC.presence_of_element_located((By.XPATH,'//*[@id="job_detail"]/dd[2]/div[1]')))#职位详情元素
+                    if not position_details:
+                        print("没有找到职位详情")
+                    else:
+                        print(f"职位详情: {position_details.text}")
+                        # browser.close()#关闭职位详情窗口
+                        # browser.switch_to.window(browser.window_handles[1])#切回职位列表窗口
+                except:
+                    print("职位详情元素不存在，跳过")
             except:
                 print("openWinPosition元素不存在，跳过")
             
@@ -117,14 +136,7 @@ def operate_browser(browser,url):
     slider_verify(browser)
     search_jobs(browser,"区块链")
     time.sleep(2)
-    # windows = browser.window_handles  # 返回列表，按打开顺序排列
-    # # 2. 切换窗口
-    # browser.switch_to.window(windows[1])  # 切换到第二个标签页
-    # # 3. 新建标签页
-    # browser.execute_script("window.open('https://www.taobao.com')")  # JS新建标签
-    # # 4. 关闭当前标签并切回原标签
-    # browser.close()
-    # browser.switch_to.window(windows[0])
+
 
 def close_browser(browser):
     input("任意键退出")
