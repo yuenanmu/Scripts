@@ -63,15 +63,50 @@ def slider_verify(browser):#,slider_xpath,track
     #松开
     action.release().perform()
 
+#智能切换窗口，包括：窗口等待加载、窗口数量检查，窗口切换、窗口标题验证等
+def switch_to_new_window(browser,wait,original_handles=None):
+    """
+    :param original_handles: 点击前的窗口句柄列表（不传则自动获取）
+    """
+    #等待新窗口加载
+    try:
+        if original_handles is None:
+            original_handles = browser.window_handles[:]
+        wait.until(EC.new_window_is_opened(original_handles))
+        new_handles = [h for h in browser.window_handles if h not in original_handles]
+        target_handle = new_handles[-1] if new_handles else browser.window_handles[-1]
+        browser.switch_to.window(target_handle)
+        print(f"切换到新窗口，标题: {browser.title}")
+        return True
+    except Exception as e:
+        print(f"新窗口加载失败: {e}")
+        return False
+def switch_to_old_window(browser,wait,original_count=None):
+    """
+    :param original_count: 点击前的标签页数量（不传则自动获取）
+    """
+    #等待旧窗口加载
+    try:
+        if original_count is None:
+            original_count = len(browser.window_handles)
+        wait.until(lambda d:len(d.window_handles)<original_count)
+        if len(browser.window_handles) >= 2:  # 先判断至少有2个窗口，避免索引越界
+            old_window_handle=browser.window_handles[-2]
+            browser.switch_to.window(old_window_handle)
+            print(f"切换回旧窗口，标题: {browser.title}")
+        else:
+            print("只有唯一窗口，无法切换回旧窗口")
+    except Exception as e:
+        print(f"旧窗口切换失败: {e}")
+
 def search_jobs(browser,keyword):
     #清除广告
-    try:
-        browser.implicitly_wait(5)
+    try:#执行js脚本删除广告元素，避免干扰后续操作
         script="var ad=document.querySelector('div[class*=\"loginBar\"]');" \
         " ad.parentNode.removeChild(ad);"
         browser.execute_script(script)
         print("广告已关闭")
-    except:
+    except Exception:
         print("没有广告")
     #输入搜索关键词并点击搜索
     #等待
@@ -81,11 +116,14 @@ def search_jobs(browser,keyword):
     search_input.clear()
     search_input.send_keys(keyword)
     search_btn=wait.until(EC.element_to_be_clickable((By.ID,"search_button")))
+    before_search_handles = browser.window_handles[:]
     search_btn.click()
-    time.sleep(5)
-    browser.switch_to.window(browser.window_handles[1])
+    #点击搜索后会打开新窗口，切换到新窗口
+    if not switch_to_new_window(browser,wait,before_search_handles):
+        return
+    jobs_window_handle = browser.current_window_handle
     jobs_list=wait.until(EC.presence_of_all_elements_located((By.XPATH,'//*[@id="jobList"]')))
-    if not jobs_list:
+    if not jobs_list:#检查职位列表有效性
         print("没有找到职位列表")
         return
     else:
@@ -98,25 +136,23 @@ def search_jobs(browser,keyword):
                 position = wait.until(EC.presence_of_element_located((By.XPATH,'//*[@id="openWinPostion"]')))
                 position_text=position.text
                 print(f"职位: {position_text}")
+                before_position_handles = browser.window_handles[:]
                 position.click()#点击职位，打开新窗口
-                time.sleep(3)
-                len_ = len(browser.window_handles)
-                print(f"当前窗口数量: {len_}")
-                browser.switch_to.window(browser.window_handles[-1])#切换到新窗口
-                print(f"切换到新窗口，标题: {browser.title}")
-                time.sleep(3)
+                if not switch_to_new_window(browser,wait,before_position_handles):
+                    continue
                 try:
-                    position_details=wait.until(EC.presence_of_element_located((By.XPATH,'//*[@id="job_detail"]/dd[2]/div[1]')))#职位详情元素
+                    position_details=wait.until(EC.visibility_of_element_located((By.XPATH,'//*[@id="job_detail"]/dd[2]/div[1]')))#职位详情元素
                     if not position_details:
                         print("没有找到职位详情")
                     else:
                         print(f"职位详情: {position_details.text}")
-                        # browser.close()#关闭职位详情窗口
-                        # browser.switch_to.window(browser.window_handles[1])#切回职位列表窗口
-                except:
-                    print("职位详情元素不存在，跳过")
-            except:
-                print("openWinPosition元素不存在，跳过")
+                except Exception as e:
+                    print(f"职位详情元素不存在，跳过: {e}")
+                finally:
+                    browser.close()
+                    browser.switch_to.window(jobs_window_handle)
+            except Exception as e:
+                print(f"openWinPosition元素不存在，跳过: {e}")
             
         pass
 
