@@ -98,6 +98,9 @@ def switch_to_old_window(browser,wait,original_count=None):
             print("只有唯一窗口，无法切换回旧窗口")
     except Exception as e:
         print(f"旧窗口切换失败: {e}")
+def roll_down_to_download(browser,pixel):
+    browser.execute_script(f"window.scrollTo(0, {pixel})")
+    time.sleep(random.uniform(1, 2))
 
 def search_jobs(browser,keyword):
     #清除广告
@@ -124,8 +127,7 @@ def search_jobs(browser,keyword):
     
     jobs_window_handle = browser.current_window_handle#/html/body/div[1]/div[1]/div/div[2]/div[3]/div/div[1]/div[1]|||/div[1]/div[1]/span/div/div[1]/a
     # 先滚动页面加载所有职位（避免动态加载漏项）
-    browser.execute_script("window.scrollTo(0, document.body.scrollHeight)")
-    time.sleep(1)
+    
     jobs_list=wait.until(EC.presence_of_all_elements_located((By.XPATH,'/html/body/div[1]/div[1]/div/div[2]/div[3]/div/div[1]/div')))
     if not jobs_list:#检查职位列表有效性
         print("没有找到职位列表")
@@ -158,9 +160,9 @@ def search_jobs(browser,keyword):
                 except Exception as e:
                     print(f"职位详情元素不存在，跳过: {e}")
                 finally:
-                    time.sleep(random.uniform(2, 4))#模拟浏览职位的停留时间,sleep参数可以是小数
                     browser.close()
                     browser.switch_to.window(jobs_window_handle)
+                    roll_down_to_download(browser, 120)#回到职位页面之后下滚，并且停留一下，模拟人工浏览
             except Exception as e:
                 print(f"openWinPosition元素不存在，跳过: {e}")
             
